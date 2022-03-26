@@ -18,12 +18,15 @@ class Program
         Console.Write("Enter number of hours worked: ");
         HoursWorked = Convert.ToInt32(Console.ReadLine());
         Console.Write("Enter the amount of money earned per hour: ");
-        Height = Convert.ToInt32(Console.ReadLine());
-
-        Double Area = (Base * Height) / 2;
+        HourlyRate = Convert.ToInt32(Console.ReadLine());
+        decimalVar.ToString("0.00");
+      
+        Double Income = HoursWorked * HourlyRate;
+        Double Taxes = 0.18 * (HoursWorked * HourlyRate) 
 
         Console.WriteLine("");
-        Console.Write("Area of the triangle = " + Area + " cm²");
+        Console.Write("Income: " + "$" + Income);
+        Console.Write("The Government will take: " + "$" + Taxes)
         Console.ReadKey();
         Console.WriteLine("\nDone.");
     }
