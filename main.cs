@@ -19,7 +19,6 @@ class Program
         HoursWorked = Convert.ToInt32(Console.ReadLine());
         Console.Write("Enter the amount of money earned per hour: ");
         HourlyRate = Convert.ToInt32(Console.ReadLine());
-        decimalVar.ToString("0.00");
       
         Double Income = HoursWorked * HourlyRate;
         Double Taxes = 0.18 * (HoursWorked * HourlyRate) 
