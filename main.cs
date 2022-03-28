@@ -19,11 +19,11 @@ class Program
         HoursWorked = Convert.ToInt32(Console.ReadLine());
         Console.Write("Enter the amount of money earned per hour: ");
         HourlyRate = Convert.ToInt32(Console.ReadLine());
-        Double Income = HoursWorked * HourlyRate;
-        Double Taxes = 0.18 * (HoursWorked * HourlyRate) 
+        Double income = HoursWorked * HourlyRate;
+        Double taxes = 0.18 * (HoursWorked * HourlyRate) 
         Console.WriteLine("");
-        Console.Write("Income: " + "$" + Income);
-        Console.Write("The Government will take: " + "$" + Taxes);
+        Console.Write("Income: " + "$" + income.ToString("0.00"));
+        Console.Write("The Government will take: " + "$" + taxes.ToString("0.00"));
         Console.ReadKey();
         Console.WriteLine("\nDone.");
     }
