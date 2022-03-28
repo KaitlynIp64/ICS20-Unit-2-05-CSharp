@@ -25,7 +25,7 @@ class Program
 
         Console.WriteLine("");
         Console.Write("Income: " + "$" + Income);
-        Console.Write("The Government will take: " + "$" + Taxes)
+        Console.Write("The Government will take: " + "$" + Taxes);
         Console.ReadKey();
         Console.WriteLine("\nDone.");
     }
