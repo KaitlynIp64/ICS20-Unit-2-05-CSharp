@@ -23,6 +23,7 @@ class Program
         Double taxes = 0.18 * (HoursWorked * HourlyRate);
         Console.WriteLine("");
         Console.Write("Income: " + "$" + income.ToString("0.00"));
+        Console.WriteLine("");
         Console.Write("The Government will take: " + "$" + taxes.ToString("0.00"));
         Console.ReadKey();
         Console.WriteLine("\nDone.");
